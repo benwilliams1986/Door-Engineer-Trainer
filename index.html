@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>DoorTech Training Simulator</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <div class="eyebrow">INDUSTRIAL DOOR ENGINEER TRAINING</div>
+    <h1>DoorTech Training Simulator</h1>
+  </div>
+  <div class="stats">
+    <span>XP <b id="xp">0</b></span>
+    <span>Score <b id="score">100</b></span>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Main navigation">
+  <button class="tab active" data-view="workshop">Workshop</button>
+  <button class="tab" data-view="library">Equipment Library</button>
+  <button class="tab" data-view="jobs">Training Jobs</button>
+</nav>
+
+<main>
+<section id="workshop" class="view active">
+  <div class="hero">
+    <div>
+      <div class="eyebrow">VISUAL WORKSHOP</div>
+      <h2>Choose an installation</h2>
+      <p>Inspect components, open controllers, trace wiring and diagnose faults.</p>
+    </div>
+  </div>
+
+  <div class="bay-grid">
+    <button class="bay" data-job="roller">
+      <svg viewBox="0 0 560 300" role="img" aria-label="Industrial roller shutter">
+        <rect x="20" y="20" width="520" height="260" rx="14" class="wall"/>
+        <rect x="110" y="60" width="300" height="190" class="opening"/>
+        <rect x="118" y="68" width="284" height="125" class="curtain"/>
+        <g class="slats">
+          <path d="M118 88H402M118 108H402M118 128H402M118 148H402M118 168H402M118 188H402"/>
+        </g>
+        <rect x="420" y="72" width="70" height="110" rx="8" class="control"/>
+        <circle cx="455" cy="102" r="8" class="green"/>
+        <circle cx="455" cy="128" r="8" class="red"/>
+        <rect x="75" y="190" width="22" height="38" rx="5" class="sensor"/>
+        <rect x="423" y="190" width="22" height="38" rx="5" class="sensor"/>
+        <path d="M97 209H423" class="beam"/>
+      </svg>
+      <div class="bay-copy"><strong>Roller Shutters</strong><span>Motors · controls · photocells · edges · limits</span></div>
+    </button>
+
+    <button class="bay" data-job="gate">
+      <svg viewBox="0 0 560 300" role="img" aria-label="Sliding gate">
+        <rect x="20" y="20" width="520" height="260" rx="14" class="wall"/>
+        <path d="M90 230H480" class="ground"/>
+        <g class="gate">
+          <rect x="115" y="95" width="300" height="125"/>
+          <path d="M140 95V220M175 95V220M210 95V220M245 95V220M280 95V220M315 95V220M350 95V220M385 95V220"/>
+        </g>
+        <rect x="395" y="205" width="75" height="35" rx="8" class="motor"/>
+        <rect x="70" y="150" width="20" height="40" rx="5" class="sensor"/>
+        <rect x="455" y="150" width="20" height="40" rx="5" class="sensor"/>
+        <path d="M90 170H455" class="beam"/>
+      </svg>
+      <div class="bay-copy"><strong>Automatic Gates</strong><span>Sliding · swing · encoders · safety zones</span></div>
+    </button>
+
+    <button class="bay" data-job="barrier">
+      <svg viewBox="0 0 560 300" role="img" aria-label="Traffic barrier">
+        <rect x="20" y="20" width="520" height="260" rx="14" class="wall"/>
+        <path d="M50 230H510" class="ground"/>
+        <rect x="80" y="120" width="90" height="110" rx="10" class="control"/>
+        <rect x="145" y="105" width="310" height="18" rx="8" class="boom"/>
+        <rect x="390" y="155" width="20" height="45" rx="4" class="sensor"/>
+        <path d="M410 177H490" class="beam"/>
+        <ellipse cx="295" cy="230" rx="90" ry="18" class="loop"/>
+      </svg>
+      <div class="bay-copy"><strong>Traffic Barriers</strong><span>Loops · boom limits · balance · access control</span></div>
+    </button>
+  </div>
+
+  <div class="panel two-col">
+    <div>
+      <div class="eyebrow">WORKSHOP INSPECTOR</div>
+      <h3 id="inspect-title">Select a workshop bay</h3>
+      <p id="inspect-copy">Choose a shutter, gate or barrier to load its component map.</p>
+      <div id="component-buttons" class="component-buttons"></div>
+    </div>
+    <div class="callout">
+      <strong>Training mode</strong>
+      <p>Electrical tasks are presented as isolated/de-energised simulations. Manufacturer-specific lessons must be checked against the exact installation manual before being marked “Verified”.</p>
+    </div>
+  </div>
+</section>
+
+<section id="library" class="view">
+  <div class="section-head">
+    <div><div class="eyebrow">SEARCHABLE CATALOGUE</div><h2>Equipment Library</h2></div>
+    <input id="equipment-search" type="search" placeholder="Search make, model or product type…">
+  </div>
+  <div class="filters">
+    <select id="manufacturer-filter"><option value="">All manufacturers</option></select>
+    <select id="type-filter"><option value="">All equipment</option></select>
+    <label class="check"><input id="verified-filter" type="checkbox"> Verified records only</label>
+  </div>
+  <div id="equipment-grid" class="equipment-grid"></div>
+</section>
+
+<section id="jobs" class="view">
+  <div class="section-head">
+    <div><div class="eyebrow">INTERACTIVE TRAINING</div><h2>Training Jobs</h2></div>
+  </div>
+  <div id="job-grid" class="job-grid"></div>
+
+  <div id="simulator" class="simulator hidden">
+    <div class="sim-head">
+      <div><div class="eyebrow" id="sim-code"></div><h2 id="sim-title"></h2></div>
+      <button id="close-sim" class="secondary">Close job</button>
+    </div>
+    <div class="sim-layout">
+      <div class="visual-panel">
+        <svg id="shutter-sim" viewBox="0 0 660 420" aria-label="Roller shutter simulation">
+          <rect x="25" y="25" width="610" height="370" rx="18" class="wall"/>
+          <rect x="105" y="78" width="340" height="250" class="opening"/>
+          <g id="sim-curtain">
+            <rect x="114" y="87" width="322" height="170" class="curtain"/>
+            <g class="slats"><path d="M114 110H436M114 135H436M114 160H436M114 185H436M114 210H436M114 235H436"/></g>
+          </g>
+          <rect x="475" y="90" width="105" height="150" rx="10" class="control"/>
+          <text x="527" y="120" text-anchor="middle" class="svgtext">CONTROL</text>
+          <circle cx="527" cy="150" r="10" class="green"/>
+          <circle cx="527" cy="183" r="10" class="red"/>
+          <rect x="70" y="272" width="25" height="48" rx="5" class="sensor"/>
+          <rect x="450" y="272" width="25" height="48" rx="5" class="sensor"/>
+          <path id="sim-beam" d="M95 296H450" class="beam"/>
+          <rect x="114" y="254" width="322" height="12" rx="4" class="edge"/>
+        </svg>
+        <div class="sim-controls">
+          <button id="cmd-open">OPEN</button>
+          <button id="cmd-stop">STOP</button>
+          <button id="cmd-close">CLOSE</button>
+          <button id="break-beam" class="secondary">Obstruct photocell</button>
+        </div>
+      </div>
+
+      <div class="task-panel">
+        <div id="task-copy"></div>
+        <div id="wiring-puzzle"></div>
+        <div id="sim-result" class="result"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>DoorTech Training Simulator · GitHub Pages starter</span>
+  <span>Training aid — verify real equipment against manufacturer documentation.</span>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

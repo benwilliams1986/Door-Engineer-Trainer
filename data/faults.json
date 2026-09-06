@@ -1,0 +1,36 @@
+[
+  {
+    "id": "photocell-obstructed",
+    "category": "safety",
+    "symptoms": [
+      "close inhibited",
+      "closing reaction"
+    ],
+    "verified": false
+  },
+  {
+    "id": "safety-edge-active",
+    "category": "safety",
+    "symptoms": [
+      "close inhibited",
+      "reverse"
+    ],
+    "verified": false
+  },
+  {
+    "id": "limit-fault",
+    "category": "limits",
+    "symptoms": [
+      "incorrect stop position"
+    ],
+    "verified": false
+  },
+  {
+    "id": "loop-active",
+    "category": "barrier",
+    "symptoms": [
+      "close inhibited"
+    ],
+    "verified": false
+  }
+]

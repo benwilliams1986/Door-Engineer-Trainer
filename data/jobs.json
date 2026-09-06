@@ -1,0 +1,39 @@
+[
+  {
+    "id": "rs-gfa-ts971-tof",
+    "code": "RS-001",
+    "title": "GfA TS 971 · TOF photocell conductor functions",
+    "sector": "Roller shutter",
+    "difficulty": "Apprentice",
+    "verified": true,
+    "description": "Identify the published conductor functions for a GfA UK PES/4.5TOF/POT example, then run a simulated beam test.",
+    "equipment_id": "gfa-ts-971"
+  },
+  {
+    "id": "rs-fault-001",
+    "code": "RS-010",
+    "title": "Shutter closes then reverses",
+    "sector": "Roller shutter",
+    "difficulty": "Engineer",
+    "verified": false,
+    "description": "Fault-finding template ready for a verified controller/motor combination."
+  },
+  {
+    "id": "gate-fault-001",
+    "code": "GT-001",
+    "title": "Sliding gate will open but not close",
+    "sector": "Automatic gate",
+    "difficulty": "Engineer",
+    "verified": false,
+    "description": "Scenario framework for photocell, edge, limit and logic diagnosis."
+  },
+  {
+    "id": "barrier-fault-001",
+    "code": "BR-001",
+    "title": "Barrier raises but close command is inhibited",
+    "sector": "Traffic barrier",
+    "difficulty": "Engineer",
+    "verified": false,
+    "description": "Scenario framework for loop, photocell and control-input diagnosis."
+  }
+]

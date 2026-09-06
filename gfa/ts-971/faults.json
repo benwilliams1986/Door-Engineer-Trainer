@@ -1,0 +1,14 @@
+[
+  {
+    "id": "photo-obstructed",
+    "name": "Photocell obstructed",
+    "symptom": "Closing response changes according to configured safety logic",
+    "verified": true
+  },
+  {
+    "id": "photo-wiring",
+    "name": "Photocell circuit fault",
+    "symptom": "Safety input does not behave as expected",
+    "verified": false
+  }
+]

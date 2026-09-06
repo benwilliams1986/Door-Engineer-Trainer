@@ -1,0 +1,155 @@
+[
+  {
+    "id": "gfa",
+    "name": "GfA Elektromaten",
+    "categories": [
+      "industrial-door-controls",
+      "industrial-door-operators"
+    ],
+    "status": "seeded"
+  },
+  {
+    "id": "somfy",
+    "name": "Somfy",
+    "categories": [
+      "tubular-motors",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "ellard",
+    "name": "Ellard",
+    "categories": [
+      "industrial-door-products",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "link-controls",
+    "name": "Link Controls",
+    "categories": [
+      "industrial-door-controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "teleco",
+    "name": "Teleco Automation",
+    "categories": [
+      "controls",
+      "radio"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "came",
+    "name": "CAME",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "faac",
+    "name": "FAAC",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "bft",
+    "name": "BFT",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "nice",
+    "name": "Nice",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "tubular-motors",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "beninca",
+    "name": "Benincà",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "roger",
+    "name": "Roger Technology",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "dea",
+    "name": "DEA System",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "v2",
+    "name": "V2",
+    "categories": [
+      "gate-operators",
+      "barriers",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "gibidi",
+    "name": "GIBIDI",
+    "categories": [
+      "gate-operators",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "hormann",
+    "name": "Hörmann",
+    "categories": [
+      "industrial-doors",
+      "operators",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  },
+  {
+    "id": "marantec",
+    "name": "Marantec",
+    "categories": [
+      "operators",
+      "controls"
+    ],
+    "status": "catalogue-placeholder"
+  }
+]

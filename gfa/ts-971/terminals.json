@@ -1,0 +1,27 @@
+{
+  "lesson": "PES/4.5TOF/POT conductor function identification",
+  "verified": true,
+  "functions": [
+    {
+      "wire": "Brown",
+      "function": "24 VDC"
+    },
+    {
+      "wire": "Blue",
+      "function": "24 VDC"
+    },
+    {
+      "wire": "Green",
+      "function": "Relay COM"
+    },
+    {
+      "wire": "Black",
+      "function": "Relay N/C"
+    },
+    {
+      "wire": "Grey",
+      "function": "Logic Selector"
+    }
+  ],
+  "warning": "This data records conductor functions from the GfA UK accessory example. It intentionally does not reproduce a complete real-world terminal map in the generic simulator."
+}

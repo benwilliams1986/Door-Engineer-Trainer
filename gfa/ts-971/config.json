@@ -1,0 +1,23 @@
+{
+  "id": "gfa-ts-971",
+  "manufacturer": "GfA Elektromaten",
+  "model": "TS 971",
+  "status": "verified-seed",
+  "capabilities": [
+    "DES",
+    "NES",
+    "24 V external accessory supply",
+    "2 relay contacts"
+  ],
+  "training_notice": "Training simulation only. Use the exact GfA installation instructions for real work.",
+  "references": [
+    {
+      "title": "GfA UK TS 971 product page",
+      "url": "https://gfa-elektromaten.com/en-GB/product-detail/ts-971-2.html"
+    },
+    {
+      "title": "GfA UK Approved Accessories TS 971 12.23",
+      "url": "https://gfa-elektromaten.com/en-GB/products_ZB.html"
+    }
+  ]
+}

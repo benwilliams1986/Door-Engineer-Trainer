@@ -1,0 +1,317 @@
+[
+  {
+    "id": "gfa-ts-971",
+    "manufacturer": "GfA Elektromaten",
+    "make_id": "gfa",
+    "model": "TS 971",
+    "type": "Industrial door control",
+    "sector": "roller-shutter",
+    "verified": true,
+    "summary": "Industrial door control supporting DES and NES limit systems with 24 V accessory supply.",
+    "training": [
+      "controller identification",
+      "photocell wiring",
+      "safety inputs",
+      "fault diagnosis",
+      "commissioning"
+    ],
+    "source_note": "Seed record checked against GfA UK product and UK approved-accessory documentation.",
+    "lesson_id": "rs-gfa-ts971-tof"
+  },
+  {
+    "id": "gfa-ts-970",
+    "manufacturer": "GfA Elektromaten",
+    "make_id": "gfa",
+    "model": "TS 970",
+    "type": "Industrial door control",
+    "sector": "roller-shutter",
+    "verified": false,
+    "summary": "Catalogue expansion record. Populate only after model-specific manual verification.",
+    "training": [
+      "controller identification",
+      "inputs",
+      "parameters"
+    ],
+    "source_note": "Unverified starter record."
+  },
+  {
+    "id": "gfa-ts-959",
+    "manufacturer": "GfA Elektromaten",
+    "make_id": "gfa",
+    "model": "TS 959",
+    "type": "Industrial door control",
+    "sector": "roller-shutter",
+    "verified": false,
+    "summary": "Catalogue expansion record for future verified training content.",
+    "training": [
+      "controller identification"
+    ],
+    "source_note": "Unverified starter record."
+  },
+  {
+    "id": "exp-01",
+    "manufacturer": "Somfy",
+    "make_id": "somfy",
+    "model": "Tubular motor families",
+    "type": "Tubular motor",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-02",
+    "manufacturer": "Ellard",
+    "make_id": "ellard",
+    "model": "Industrial door product families",
+    "type": "Industrial door equipment",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-03",
+    "manufacturer": "Link Controls",
+    "make_id": "link-controls",
+    "model": "Control panel families",
+    "type": "Industrial door control",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-04",
+    "manufacturer": "Teleco Automation",
+    "make_id": "teleco",
+    "model": "Radio/control families",
+    "type": "Control / radio",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-05",
+    "manufacturer": "CAME",
+    "make_id": "came",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-06",
+    "manufacturer": "CAME",
+    "make_id": "came",
+    "model": "Barrier families",
+    "type": "Traffic barrier",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-07",
+    "manufacturer": "FAAC",
+    "make_id": "faac",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-08",
+    "manufacturer": "FAAC",
+    "make_id": "faac",
+    "model": "Barrier families",
+    "type": "Traffic barrier",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-09",
+    "manufacturer": "BFT",
+    "make_id": "bft",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-10",
+    "manufacturer": "BFT",
+    "make_id": "bft",
+    "model": "Barrier families",
+    "type": "Traffic barrier",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-11",
+    "manufacturer": "Nice",
+    "make_id": "nice",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-12",
+    "manufacturer": "Nice",
+    "make_id": "nice",
+    "model": "Tubular motor families",
+    "type": "Tubular motor",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-13",
+    "manufacturer": "Benincà",
+    "make_id": "beninca",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-14",
+    "manufacturer": "Roger Technology",
+    "make_id": "roger",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-15",
+    "manufacturer": "DEA System",
+    "make_id": "dea",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-16",
+    "manufacturer": "V2",
+    "make_id": "v2",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-17",
+    "manufacturer": "GIBIDI",
+    "make_id": "gibidi",
+    "model": "Gate operator families",
+    "type": "Gate operator",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-18",
+    "manufacturer": "Hörmann",
+    "make_id": "hormann",
+    "model": "Industrial operator/control families",
+    "type": "Industrial door equipment",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  },
+  {
+    "id": "exp-19",
+    "manufacturer": "Marantec",
+    "make_id": "marantec",
+    "model": "Operator/control families",
+    "type": "Door / gate equipment",
+    "sector": "mixed",
+    "verified": false,
+    "summary": "Expansion slot. Add exact model numbers, manuals, visuals, terminal maps and lessons as they are verified.",
+    "training": [
+      "identification"
+    ],
+    "source_note": "Placeholder family record — not a wiring reference."
+  }
+]
